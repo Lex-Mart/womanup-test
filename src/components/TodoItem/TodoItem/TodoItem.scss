@@ -29,3 +29,16 @@
 		background-color: rgb(92, 244, 92);
 	}
 }
+
+@media (max-width: 500px) {
+	.TodoItem {
+		display: block;
+
+		.todoRight {
+			display: flex;
+			flex-flow: row-reverse;
+			justify-content: space-between;
+			align-items: flex-end;
+		}
+	}
+}

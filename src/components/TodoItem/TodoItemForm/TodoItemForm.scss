@@ -23,3 +23,12 @@
 		height: 60px;
 	}
 }
+
+@media (max-width: 600px) {
+	.TodoItemForm {
+		.todoDescription {
+			margin-top: 5px;
+			min-height: 64px;
+		}
+	}
+}
