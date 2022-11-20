@@ -1,0 +1,25 @@
+.TodoItemForm {
+	max-width: 330px;
+	width: 100%;
+
+	.todoTitle {
+		font-size: 18px;
+		padding: 5px 0;
+		height: 30px;
+		font-weight: 600;
+	}
+
+	.todoDescription {
+		margin-top: 5px;
+
+		&.placeholder {
+			color: silver;
+		}
+	}
+
+	.descriptionForm {
+		margin-top: 5px;
+		width: 100%;
+		height: 65px;
+	}
+}

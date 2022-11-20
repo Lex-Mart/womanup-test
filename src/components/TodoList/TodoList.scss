@@ -1,0 +1,15 @@
+.TodoList {
+	margin-top: 25px;
+
+	.title {
+		text-transform: uppercase;
+		font-size: 20px;
+		margin-left: 10px;
+
+		&.placeHolder {
+			width: fit-content;
+			margin: 0 auto;
+			color: silver;
+		}
+	}
+}

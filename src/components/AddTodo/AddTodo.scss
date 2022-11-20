@@ -1,0 +1,18 @@
+.AddTodo {
+	margin-top: 15px;
+
+	.title {
+		display: inline-block;
+		text-transform: uppercase;
+		margin: 0 auto;
+	}
+
+	.form {
+		margin: 20px auto;
+		width: fit-content;
+	}
+
+	.formBtn {
+		margin-left: 20px;
+	}
+}

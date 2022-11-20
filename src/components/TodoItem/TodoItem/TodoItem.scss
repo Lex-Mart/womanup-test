@@ -1,0 +1,31 @@
+.TodoItem {
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	min-height: 120px;
+
+	.todoRight {
+		display: flex;
+		flex-flow: column;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.todoControl {
+		& > * {
+			margin-left: 5px;
+		}
+	}
+
+	.expireTime {
+		font-size: 14px;
+	}
+
+	&.expired {
+		background-color: rgb(255, 107, 107);
+	}
+
+	&.completed {
+		background-color: rgb(92, 244, 92);
+	}
+}
